@@ -209,6 +209,7 @@ This notebook performs:
     │   └── README.md
     │
     ├── results/
+    │   ├── architecture/
     │   ├── performance/
     │   ├── explainability/
     │   ├── consensus_stability/
@@ -216,6 +217,7 @@ This notebook performs:
     │   └── RESULTS.md
     │
     └── README.md
+
 ---
 
 # References

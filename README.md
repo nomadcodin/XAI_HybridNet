@@ -145,6 +145,112 @@ Representative failure cases indicate that subtle pulmonary intensity variations
 
 Clone the repository:
 
-```bash
-git clone https://github.com/nomadcodin/XAI_HybridNet.git
-cd XAI_HybridNet
+    git clone https://github.com/nomadcodin/XAI_HybridNet.git
+    cd XAI_HybridNet
+
+Install required dependencies:
+
+    pip install -r requirements.txt
+
+Recommended environment:
+- Python 3.10+
+- PyTorch
+- torchvision
+- timm
+- OpenCV
+- SHAP
+- LIME
+- scikit-learn
+- matplotlib
+
+---
+
+# Usage
+
+## Main Training and Explainability Pipeline
+
+Run:
+
+    jupyter notebook notebooks/XAI_HybridNet.ipynb
+
+This notebook includes:
+- dataset preprocessing
+- data augmentation
+- ResNet-50 training
+- ViT-B/16 training
+- weighted ensemble fusion
+- explainability generation
+- hybrid explanation visualization
+
+---
+
+## Metrics and Statistical Analysis
+
+Run:
+
+    jupyter notebook notebooks/Hybridnet_metrics.ipynb
+
+This notebook performs:
+- metric computation
+- XCS and X-Entropy evaluation
+- consensus and stability analysis
+- McNemar significance testing
+- visualization generation
+
+---
+
+# Repository Structure
+
+    XAI_HybridNet/
+    │
+    ├── notebooks/
+    │   ├── XAI_HybridNet.ipynb
+    │   ├── Hybridnet_metrics.ipynb
+    │   └── README.md
+    │
+    ├── results/
+    │   ├── performance/
+    │   ├── explainability/
+    │   ├── consensus_stability/
+    │   ├── failure_cases/
+    │   └── RESULTS.md
+    │
+    └── README.md
+---
+
+# References
+
+1. He, K., Zhang, X., Ren, S., and Sun, J. *Deep Residual Learning for Image Recognition*. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016.
+
+2. Dosovitskiy, A., et al. *An Image is Worth 16×16 Words: Transformers for Image Recognition at Scale*. ICLR, 2021.
+
+3. Selvaraju, R. R., et al. *Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization*. ICCV, 2017.
+
+4. Ribeiro, M. T., Singh, S., and Guestrin, C. *Why Should I Trust You?: Explaining the Predictions of Any Classifier*. KDD, 2016.
+
+5. Lundberg, S. M., and Lee, S. I. *A Unified Approach to Interpreting Model Predictions*. NeurIPS, 2017.
+
+6. Rajpurkar, P., et al. *CheXNet: Radiologist-Level Pneumonia Detection on Chest X-rays with Deep Learning*. arXiv preprint arXiv:1711.05225, 2017.
+
+7. Raghu, M., et al. *Do Vision Transformers See Like Convolutional Neural Networks?* NeurIPS, 2021.
+
+8. Tjoa, E., and Guan, C. *A Survey on Explainable Artificial Intelligence (XAI): Toward Medical XAI*. IEEE Transactions on Neural Networks and Learning Systems, 2020.
+
+9. Angara, S., et al. *A Novel Method to Enhance Pneumonia Detection via a Model-Level Ensembling of CNN and Vision Transformer*. arXiv preprint arXiv:2401.02358, 2024.
+
+10. Amirian, S., et al. *State-of-the-Art in Responsible, Explainable, and Fair AI for Medical Image Analysis*. IEEE Access, 2025.
+
+---
+
+# Future Work
+
+Future extensions of the proposed framework will focus on:
+- multi-class thoracic disease classification
+- broader multi-institutional validation
+- domain adaptation under distributional shifts
+- uncertainty-aware prediction mechanisms
+- clinician-in-the-loop validation
+- deployment-oriented optimization
+- advanced language-based explanation generation
+- broader explainability benchmarking in safety-critical environments
+

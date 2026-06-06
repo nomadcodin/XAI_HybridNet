@@ -17,7 +17,7 @@ The proposed framework integrates:
 # Architecture Overview
 
 <p align="center">
-  <img src="results/explainability/architecture.png" width="850">
+  <img src="results/architecture/architecture.png" width="850">
 </p>
 
 The framework combines:

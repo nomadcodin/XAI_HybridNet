@@ -204,16 +204,17 @@ This notebook performs:
     XAI_HybridNet/
     │
     ├── notebooks/
-    │   ├── XAI_HybridNet.ipynb
+    │   ├── Computational_Analysis.ipynb
     │   ├── Hybridnet_metrics.ipynb
+    │   ├── XAI_HybridNet.ipynb
     │   └── README.md
     │
     ├── results/
     │   ├── architecture/
-    │   ├── performance/
-    │   ├── explainability/
     │   ├── consensus_stability/
+    │   ├── explainability/
     │   ├── failure_cases/
+    │   ├── performance/
     │   └── RESULTS.md
     │
     └── README.md
